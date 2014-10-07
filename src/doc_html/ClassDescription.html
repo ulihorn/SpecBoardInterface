@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title> SpecBoardInterface Tango Class Description </title>
+</head>
+<body text="Black" bgcolor="White" link="Blue" vlink="Purple" alink="Red">
+<ul>
+	<br><br><br>
+	<table border="0" width="100%">
+		<Tr>
+			<td> <font size="+1"><u><b> SpecBoardInterface Class Identification : </b></u></font> </td>
+			<td> <font size="+1"><u><b> SpecBoardInterface Class Inheritance : </b></u></font> </td>
+		</tr>
+		<td><ul>
+			<table border="0">
+				<Tr>
+					<td> Contact </td><td> : at esrf.fr - broquet</td>
+				</tr>
+				<tr>
+					<td> Class Family </td><td> : Acquisition
+				</tr>
+				<tr>
+					<td> Platform </td><td> : Unix Like </td>
+				</tr>
+				<tr>
+					<td> Bus </td><td> : PCI Express </td>
+				</tr>
+				<tr>
+					<td> Manufacturer </td><td> : none </td>
+				</tr>
+				<tr>
+					<td> Manufacturer ref.</td><td> :  </td>
+				</tr>
+			</Table>
+		</ul></td>
+		<td>
+			<ul><li> <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/cpp_doc/" target="new"> Tango::DeviceImpl</a></li>
+			<ul> <li> SpecBoardInterface</li>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</td>
+	</Table>
+	<br><br><br>
+	<font size="+1"><u><b> SpecBoardInterface Class Description : </b></u></font>
+	<br><br>
+	<ul>
+		The Simple PCIe FMC carrier (SPEC) board is a FPGA based board with SFP connector and PCIe interface (throw the Gennum GN4124 chip bridge). It is under CERN Open Hardware License (CERN OHL v1.2).<Br>
+		The SPEC board can hold one FMC card for ADC, DAC, DIO... It can also be used as a standard node for the White Rabbit system.<Br>
+		Check the web page http://www.ohwr.org/projects/spec/wiki for full documentation and sources.<Br>
+		<Br>
+		This class is a simple basic interface for the SPEC board. It allows to:<Br>
+		  * load the FPGA bitstream<Br>
+		  * read/write registers of the user and gn4124 cores.<Br>
+		<Br>
+		You will need the libspec library to build and run this class:<Br>
+		  * git clone git@ohwr.org:fmc-projects/spec/spec-sw.git<Br>
+		  * cd spec-sw/tools<Br>
+		  * make<Br>
+		  * libspec.a and libspec.so are available
+		
+		<!---  /*PROTECTED REGION ID(index.html) ENABLED START*/  --->
+			<!--- Add your own documentation, pictures, links,.... --->
+			
+		<!---  /*PROTECTED REGION END*/  --->
+		
+	</ul>
+</ul>
+</body>
+</html>
